@@ -14,13 +14,13 @@ export function Navbar() {
                     <Link href="/" className="hidden lg:block">
                         <button className="text-white text-xl font-medium hover:bg-emerald-600">About</button>
                     </Link>
-                    <Link href="/as" className="hidden lg:block">
+                    <Link href="/profil" className="hidden lg:block">
                         <button className="text-white text-xl font-medium hover:bg-emerald-600">Profil</button>
                     </Link>
                     <Link href="/pengguna" className="hidden lg:block">
                         <button className="text-white text-xl font-medium hover:bg-emerald-600">Pengguna</button>
                     </Link>
-                    <Link href="/as" className="hidden lg:block">
+                    <Link href="/riwayat" className="hidden lg:block">
                         <button className="text-white text-xl font-medium hover:bg-emerald-600">Riwayat</button>
                     </Link>
                 </div>
