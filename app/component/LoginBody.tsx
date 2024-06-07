@@ -42,8 +42,13 @@ export function LoginBody() {
     } else {
       setLoading(true);
       try {
+        console.log(email, password);
         await signIn(email, password);
-        router.replace("/riwayat");
+        if (email == "admin@email.com" && password == "admin123") {
+          router.replace("/pengguna");
+        } else {
+          router.replace("/profil");
+        }
       } catch (error : any) {
         let newErrors = {
           email: "",
