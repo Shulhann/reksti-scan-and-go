@@ -6,8 +6,17 @@ import { getFirestore, collection, doc, getDoc, getDocs, updateDoc, orderBy, que
 import { app } from '../firebase'; // Ensure your Firebase config and initialization are here
 
 export function PenggunaBody() {
-    const [data, setData] = useState([]);
-    const [dataUser, setDataUser] = useState(null);
+    interface User {
+        id: string;
+        nama: string;
+        nim: string;
+        plat: string;
+        saldo: number;
+        role: string; // Add this line
+      }
+    
+    const [data, setData] = useState<User[]>([]);
+    const [dataUser, setDataUser] = useState<any>(null);
     const [loading, setLoading] = useState(true);
     const { isLogin, user } = useAuth();
     const firestore = getFirestore(app); // Initialize Firestore

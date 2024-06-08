@@ -56,7 +56,7 @@ const dataRiwayat = [
 
 export function RiwayatBody() {
     const [data, setData] = useState([]);
-    const [dataUser, setDataUser] = useState(null);
+    const [dataUser, setDataUser] = useState<any>(null);
     const [loading, setLoading] = useState(true);
     const { isLogin, user } = useAuth();
     const firestore = getFirestore(app); 
