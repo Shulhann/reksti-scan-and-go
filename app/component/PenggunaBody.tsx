@@ -107,7 +107,7 @@ export function PenggunaBody() {
                         <p className="text-center mt-5">Loading...</p>
                     ) : (
                         data.map((user, index) => ( user.role === 'pengguna' &&
-                            <div className="flex flex-row justify-between w-full px-4 py-4 bg-[#F5FFFF]">
+                            <div key={user.id} className="flex flex-row justify-between w-full px-4 py-4 bg-[#F5FFFF]">
                                 <div className="flex w-1/6 justify-center items-start">
                                     <p className="text-sm font-medium">{index}</p>
                                 </div>
