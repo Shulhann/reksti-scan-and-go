@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **Tubes RekSTI K01 Kelompok 10**
 
-## Getting Started
+## **A. Tentang Scan and Go**
 
-First, run the development server:
+## **B. Developer Terlibat**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+| NIM      | Nama                     | Role             |
+| -------- | ------------------------ | ---------------- |
+| 10023601 | Sri Nurlia               | IoT Engineer     |
+| 18221051 | Muhammad Shulhan         | Web Developer    |
+| 18221127 | Arifuddin Achmad Subagja | Iot Engineer     |
+| 18221161 | Reyhan Putra Ananda      | Mobile Developer |
+| 18221167 | Ananda Abdul Hafizh      | Iot Engineer     |
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## **C. Pedoman Penggunaan**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### **1. Penggunaan di Lokal Komputer**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### **2. Catatan Tambahan**
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## **D. Desain API**
