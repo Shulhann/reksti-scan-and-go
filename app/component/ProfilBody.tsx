@@ -85,7 +85,7 @@ export function ProfilBody() {
                             </div>
                         </div>
                         ) : (
-                            <p className="text-md mt-5 w-4/6">Something Wrong</p>
+                            <p className="text-md mt-5 w-4/6">Loading...</p>
                         )}
                 </div>
             </div>
