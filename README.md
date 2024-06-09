@@ -32,3 +32,19 @@ Untuk menggunakan website scan and go lokal di komputer
 Pada terminal akan diberikan link localhost yang dapat digunakan. Akses localhost tersebut dan website scan and go sudah dapat digunakan.
 
 ## **D. Desain API**
+#### **1. GET /users**
+  - message  : Berhasil menampilkan users
+  - request  : -
+  - response : uid, nama, nim, plat, role, saldo, qrcode, email, created_at, updated_at
+#### **2. GET /users/:uid**
+  - message  : Berhasil menampilkan users by uid
+  - request  : -
+  - response : uid, nama, nim, plat, role, saldo, qrcode, email, created_at, updated_at
+#### **3. POST /users**
+  - message  : Berhasil menambahkan users
+  - request  : uid, nama, nim, plat, role, saldo, qrcode, email, created_at, updated_at
+  - response : uid, nama, nim, plat, role, saldo, qrcode, email, created_at, updated_at
+#### **4. PUT /users/:uid**
+  - message  : Berhasil mengupdate users by uid
+  - request  : nama, nim, plat, saldo
+  - response : nama, nim, plat, saldo
