@@ -2,6 +2,8 @@
 
 ## **A. Tentang Scan and Go**
 
+Scan and Go adalah sebuah sistem untuk otomasi sistem parkir yang ada di lingkungan Institut Teknologi Bandung. Sistem ini berbasis aplikasi mobile, website, dan juga IoT. Cara kerjanya, pengguna yang masuk ke gerbang parkir harus melakukan scanning QR code yang telah didefinisikan saat pengguna mendaftarkan akun terhadap IoT agar dapat membuka gerbang parkirnya.
+
 ## **B. Developer Terlibat**
 
 | NIM      | Nama                     | Role             |
@@ -14,8 +16,19 @@
 
 ## **C. Pedoman Penggunaan**
 
-### **1. Penggunaan di Lokal Komputer**
+### **1. Penggunaan website yang dideploy**
 
-### **2. Catatan Tambahan**
+Untuk website scan and go dapat diakses melalui link berikut
+[Website Scan and Go](https://reksti-scan-and-go.vercel.app/)
+
+### **2. Penggunaan Lokal di Komputer**
+
+Untuk menggunakan website scan and go lokal di komputer
+, anda harus melakukan cloning repository ini. Setelah diclone, buka di IDE programming (disarankan visual studio code). Kemudian ikuti langkah berikut
+
+- jalankan npm i pada terminal
+- jalankan npm run dev
+
+Pada terminal akan diberikan link localhost yang dapat digunakan. Akses localhost tersebut dan website scan and go sudah dapat digunakan.
 
 ## **D. Desain API**
